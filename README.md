@@ -63,6 +63,11 @@ Outbox 패턴을 기반으로 메시지 발행 이력, 재처리 흐름, 실패 
 - RAG / LLM backend
 - Vector search
 
+### 공개 프로젝트
+
+- [Aho-Corasick 기반 금칙어 판단 모듈](https://github.com/Robert-HJ/forbidden-module)  
+  금칙어 판단 기능을 중앙 API 호출이 아닌 각 서비스 인스턴스의 로컬 메모리 기반 라이브러리 구조로 재구성한 포트폴리오 프로젝트입니다. Aho-Corasick 기반 다중 패턴 탐색, snapshot polling, Redis cache/DB fallback, E2E 테스트와 benchmark를 포함합니다.
+
 ## 일하는 방식
 
 반복되는 불편함을 발견하면, 그 문제를 한 번의 기능 개발로 끝내기보다 팀이 계속 사용할 수 있는 구조로 바꾸려는 편입니다.
